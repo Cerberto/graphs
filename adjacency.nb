@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     17665,        524]
-NotebookOptionsPosition[     17125,        502]
-NotebookOutlinePosition[     17460,        517]
-CellTagsIndexPosition[     17417,        514]
+NotebookDataLength[     16679,        493]
+NotebookOptionsPosition[     16217,        473]
+NotebookOutlinePosition[     16552,        488]
+CellTagsIndexPosition[     16509,        485]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -56,16 +56,15 @@ Cell[BoxData[{
         RowBox[{"N", "[", 
          RowBox[{
           RowBox[{"Eigenvalues", "[", "adj", "]"}], ",", "10"}], "]"}], "]"}],
-        "//", "Last"}]}], ";", "\[IndentingNewLine]", 
-     RowBox[{"1", "/", "leig"}]}]}], "\[IndentingNewLine]", "]"}]}]}], "Input",\
-
+        "//", "Last"}]}], ";", "\[IndentingNewLine]", "leig"}]}], 
+   "\[IndentingNewLine]", "]"}]}]}], "Input",
  CellChangeTimes->{{3.6416387849589777`*^9, 3.641638826449296*^9}, {
    3.6416390153049173`*^9, 3.64163901583177*^9}, {3.641639080874227*^9, 
    3.641639125389554*^9}, {3.64163928298771*^9, 3.641639305393458*^9}, {
    3.641639411057819*^9, 3.641639448584943*^9}, {3.641639511492745*^9, 
    3.641639522045917*^9}, {3.641640265539901*^9, 3.641640265687491*^9}, 
    3.641640343243281*^9, {3.641640385773375*^9, 3.641640625450057*^9}, 
-   3.641642575527063*^9}],
+   3.641642575527063*^9, 3.642688844020927*^9}],
 
 Cell[BoxData[{
  RowBox[{
@@ -470,35 +469,7 @@ Cell[BoxData[
   3.641642742817361*^9}}],
 
 Cell[BoxData[
- RowBox[{"Histogram", "[", "data", "]"}]], "Input"],
-
-Cell[BoxData[{
- RowBox[{
-  RowBox[{"data", "=", 
-   RowBox[{
-    RowBox[{"Table", "[", 
-     RowBox[{
-      RowBox[{"Sin", "[", 
-       RowBox[{"\[Pi]", "*", 
-        RowBox[{
-         RowBox[{"RandomReal", "[", "]"}], "/", "a"}]}], "]"}], ",", 
-      RowBox[{"{", "100", "}"}]}], "]"}], "/.", 
-    RowBox[{"Table", "[", 
-     RowBox[{
-      RowBox[{"{", 
-       RowBox[{"a", "\[Rule]", "vals"}], "}"}], ",", 
-      RowBox[{"{", 
-       RowBox[{"vals", ",", 
-        RowBox[{"{", 
-         RowBox[{"2", ",", "3", ",", "6"}], "}"}]}], "}"}]}], "]"}]}]}], 
-  ";"}], "\[IndentingNewLine]", 
- RowBox[{"Histogram", "[", "data", "]"}]}], "Input",
- CellChangeTimes->{{3.641642765856022*^9, 3.641642863741961*^9}, {
-  3.641642971459673*^9, 3.6416429785570602`*^9}, {3.641643129541214*^9, 
-  3.6416431315312557`*^9}}],
-
-Cell[BoxData[""], "Input",
- CellChangeTimes->{{3.641644505250181*^9, 3.641644505929604*^9}}]
+ RowBox[{"Histogram", "[", "data", "]"}]], "Input"]
 },
 WindowSize->{808, 621},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
@@ -516,16 +487,14 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 1915, 47, 231, "Input"],
-Cell[2476, 69, 639, 19, 77, "Input"],
+Cell[558, 20, 1913, 46, 231, "Input"],
+Cell[2474, 68, 639, 19, 77, "Input"],
 Cell[CellGroupData[{
-Cell[3140, 92, 199, 4, 32, "Input"],
-Cell[3342, 98, 12196, 351, 239, "Output"]
+Cell[3138, 91, 199, 4, 32, "Input"],
+Cell[3340, 97, 12196, 351, 239, "Output"]
 }, Open  ]],
-Cell[15553, 452, 594, 17, 32, "Input"],
-Cell[16150, 471, 65, 1, 32, "Input"],
-Cell[16218, 474, 808, 23, 77, "Input"],
-Cell[17029, 499, 92, 1, 32, "Input"]
+Cell[15551, 451, 594, 17, 32, "Input"],
+Cell[16148, 470, 65, 1, 32, "Input"]
 }
 ]
 *)
