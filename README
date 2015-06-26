@@ -1,4 +1,4 @@
-Tree for simulations done using the igraph library in 
-C, to describe the giant component phase transition in 
-random networks. Some Mathematica files included with 
-analytical treatment of the problem.
+Simulations and analytical results for the giant component phase transition in random networks with power law 
+times exponential degree distribution.
+Numerical simulations in C using the igraph library.
+Mathematica notebooks also with analytical treatment.
