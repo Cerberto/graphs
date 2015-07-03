@@ -1,0 +1,64 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'graph_excess.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{544.63948528bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.96099557)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{graph_excess.pdf}}%
+    \put(0.43868612,0.4697669){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$i$}}}%
+    \put(0.66718737,0.61443492){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$i_2$}}}%
+    \put(0.44462127,0.65523868){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$i_1$}}}%
+    \put(0.41272011,0.35254876){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$i_4$}}}%
+    \put(0.70306264,0.39682341){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$i_3$}}}%
+    \put(0.66769843,0.43771341){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{3}}}%
+    \put(0.68253614,0.68401995){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{3}}}%
+    \put(0.39913529,0.62615273){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{3}}}%
+    \put(0.37391111,0.40952174){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{4}}}%
+    \put(0.66027954,0.45700245){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+  \end{picture}%
+\endgroup%
